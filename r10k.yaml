@@ -1,0 +1,8 @@
+:cachedir: /var/cache/r10k
+:sources:
+  puppet:
+    basedir: /etc/puppetlabs/puppet/environments
+    remote: git@github.com:pizzaops/test_control_repo.git
+
+:purgedirs:
+  - /etc/puppetlabs/puppet/environments
